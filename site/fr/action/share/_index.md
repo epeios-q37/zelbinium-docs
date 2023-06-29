@@ -8,7 +8,7 @@ weight: 2
 
 Voyons comment partager l’accès à une application  pour que plusieurs personnes puissent l'utiliser en même temps.
 
-Comme vu à la la page [*Lancer*](../launch), lancer l'application' et y accéder en cliquant sur l'URL.
+Comme vu à la la page [*Lancer*](../launch), lancer l'application et y accéder en cliquant sur l'URL.
 
 <div style="display: flex;">
 <iframe style="margin: auto; border: groove 10px; padding: 5px;" src="https://replit.com/@Zelbinium/Messages?embed=true" width="500" height="360"></iframe>
@@ -22,7 +22,7 @@ En cliquant sur l'icône pointée par la flèche, voici ce qui va s'afficher :
 
 ![Code QR](./ShareAreaQRCode.png)
 
-On aperçoit ici un [code QR](https://fr.wikipedia.org/wiki/Code_QR), pointé par la flèche.  En cliquant dessus, un autre onglet va s'ouvrir qui donnera également accès à l'application. En passant d'un onglet à l'autre, on s'apercevra que les messages écrits dans un onglet seront également affichés dans l'autre onglet.
+On aperçoit ici un [code QR](https://fr.wikipedia.org/wiki/Code_QR), pointé par la flèche. En cliquant dessus, un autre onglet va s'ouvrir qui donnera également accès à l'application. En passant d'un onglet à l'autre, on s'apercevra que les messages écrits dans un onglet seront également affichés dans l'autre onglet.
 
 Il est possible d'ouvrir simultanément plus de deux onglets.
 

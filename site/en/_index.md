@@ -1,20 +1,18 @@
 ---
 title: Home
+menu: Home
+weight: 1
 ---
 
-<!--div style="margin-bottom: 10px; background-color: green; font-size: larger; padding: 10px;">
-  <span style="display: block; text-align: center; ; color: white;">For a healthier digital for our children, support <em>Zelbinium</em> !</span>
-  <a style="display: flex; width: 100;" href="./donate">
-    <span style="margin: auto; background-color: white; color: green; border-radius: 20px; font-family: sans-serif; font-weight: bold; padding: 5px 30px; margin: 10px auto">Donate</span>
-  </a>
-</div-->
+<!-- Attention : 'home.md' est un lien symbolique vers '_index.md' ! -->
+<!-- Les URL doivent être absolus !!! -->
 
-<center><img src="./Logo.png" alt="Logo Zelbilium"/></center>
+<center><img src="/en/Logo.png" alt="Logo Zelbinium"/></center>
 
-*Zelbinium* aims to make programming freely accessible to as many people as possible, whatever their level and the devices they use. 
+Use your smartphone to easily create true [connected applications](https://en.wikipedia.org/wiki/Web_application) for smartphones, tablets or personal computers.
 
-Easily create applications with a real graphical interface and accessible from any device with a modern web browser connected to the Internet, including smartphones and tablets.
+Give instant access to your applications to anyone, anywhere, using a [QR code](https://en.wikipedia.org/wiki/QR_code) or a link sent via an [email](https://en.wikipedia.org/wiki/Email) or [instant message](https://en.wikipedia.org/wiki/Instant_messaging).
 
-Simply launch your application and use the automatically generated link to share access with the people you want, without having to deploy your application on a remote server or configure your box or internet router.
+With the [*Action!*](/en/action/) section, find out how to do this in just a few clicks, whether with your smartphone, tablet or personal computer.
 
-This site is under construction and, in its current version, only available [in French](/fr/). In a future version, this site will also be in English (or even in other languages). Contributions are welcome at <https://github.com/epeios-q37/zelbinium>.
+The [*Inspiration*](/en/inspiration/) section contains other applications that can be accessed and modified with just a few clicks.

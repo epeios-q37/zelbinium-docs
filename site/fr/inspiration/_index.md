@@ -13,21 +13,15 @@ En cliquant sur l'aperçu d'une application, vous aurez accès à son *repl*, à
 
 ## *Messages* (`Messages`)
 
-Il s'agit de l"application utilisée dans la section [*Action !*](../action/). Elle permet l'échange de messages entre tous les appareils connectés à la même application.
+Il s'agit de l'application utilisée dans la section [*Action !*](../action/). Elle permet l'échange de messages entre tous les appareils connectés à la même application.
 
-[![](./MessagesFR.png)](https://replit.com/@Zelbinium/Messages)
+<div data-demo="Messages"></div>
 
 ## *Puissance 4* (`FourInARow`)
 
 Le jeu [*Puissance 4*](https://fr.wikipedia.org/wiki/Puissance_4).
 
-[![](./FourInARow.png)](https://replit.com/@Zelbinium/FourInARow)
-
-## *Blackjack* (`Blackjack`)
-
-Le jeu du [*blackjack*](https://fr.wikipedia.org/wiki/Blackjack_(jeu)).
-
-[![](./Blackjack.png)](https://replit.com/@Zelbinium/Blackjack)
+<div data-demo="FourInARow"></div>
 
 ## *Mancala* (`Mancala`)
 
@@ -35,10 +29,47 @@ Un ancien jeu de semis à deux joueurs de type [*mancala*](https://fr.wikipedia.
 
 Prenez les graines dans un emplacement de votre côté et placez-en une dans chaque emplacement suivant, dans le sens inverse des aiguilles d'une montre et en sautant la réserve de votre adversaire. Si votre dernière graine atterrit dans un emplacement vide, déplacez les graines de l'emplacement opposé dans votre réserve. Le but est d'obtenir le plus grand nombre de graines dans votre réserve sur le côté du plateau. Si la dernière graine placée se retrouve dans votre réserve, vous bénéficiez d'un tour gratuit.
 
-[![](./Mancala.png)](https://replit.com/@Zelbinium/Mancala)
+<div data-demo="Mancala"></div>
 
 ## *Flood it!* (`Flooder`)
 
 Définissez le motif de la zone supérieure gauche, qui remplit tous les carrés adjacents de ce motif, en sélectionnant un carré du motif souhaité. Essayez de faire en sorte que la surface entière ai le même motif.
 
-[![](./Flooder.png)](https://replit.com/@Zelbinium/Flooder)
+<div data-demo="Flooder"></div>
+
+## *Blackjack* (`Blackjack`)
+
+Le jeu du [*blackjack*](https://fr.wikipedia.org/wiki/Blackjack_(jeu)).
+
+<div data-demo="Blackjack"></div>
+
+## *Pig game* (`PigGame`)
+
+À chaque tour, un joueur lance plusieurs fois un dé jusqu'à ce qu'il obtienne un 1 ou qu'il décide d'attendre :
+
+- Si le joueur obtient un 1, il ne marque rien et c'est au tour du joueur suivant ;
+- Si le joueur obtient un autre chiffre, celui-ci est ajouté au total de son tour et le tour du joueur se poursuit ;
+- Si un joueur choisit d'attendre, le total de son tour est ajouté à son score et c'est au tour du joueur suivant de jouer.
+
+Le premier joueur à marquer 100 points ou plus gagne.
+
+<div data-demo="PigGame"></div>
+
+<script>
+    function demoLink(element) {
+        const demo = element.getAttribute("data-demo");
+        element.innerHTML = '\
+<center>\
+    <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\
+        <img src="./' + demo +  '.png"/>\
+    </a>\
+</center>';
+    }
+
+    const demos = document.getElementsByTagName("div");
+
+    for ( const demo of demos ) {
+        if ( demo.hasAttribute("data-demo") )
+            demoLink(demo);
+    }
+</script>

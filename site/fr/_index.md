@@ -1,20 +1,19 @@
 ---
 title: Accueil
+menu: Accueil
+weight: 1
 ---
 
-<!--div style="margin-bottom: 10px; background-color: green; font-size: larger; padding: 10px;">
-  <span style="display: block; text-align: center; ; color: white;">Pour un numérique plus sain pour nos enfants, soutenez <em>Zelbinium</em> !</span>
-  <a style="display: flex; width: 100;" href="./donate">
-    <span style="margin: auto; background-color: white; color: green; border-radius: 20px; font-family: sans-serif; font-weight: bold; padding: 5px 30px; margin: 10px auto">Faire un don</span>
-  </a>
-</div-->
+<!-- Attention : 'home.md' est un lien symbolique vers '_index.md' ! -->
+<!-- Les URL doivent être absolus !!! -->
 
-<center><img src="./Logo.png" alt="Logo Zelbinium"/></center>
+<center><img src="/fr/Logo.png" alt="Logo Zelbinium"/></center>
 
-*Zelbinium* vise à rendre la programmation accessible gratuitement au plus grand nombre, quelque soit leur niveau et les appareils qu'ils utilisent. 
+Utilisez votre smartphone pour créer facilement de véritables [applications connectées](https://fr.wikipedia.org/wiki/Application_web) pour smartphones, tablettes ou ordinateurs personnels.
 
-Créez facilement des applications avec une véritable interface graphique et accessibles de n'importe quel appareil équipé d'un navigateur web moderne connecté à Internet, y compris smartphones et tablettes.
+Donnez instantanément accès à vos applications à n'importe qui, où qu'il soit, à l'aide d'un [code QR](https://fr.wikipedia.org/wiki/Code_QR) ou d'un lien transmis via un message [électronique](https://fr.wikipedia.org/wiki/Courrier_%C3%A9lectronique) ou [instantané](https://fr.wikipedia.org/wiki/Messagerie_instantan%C3%A9e).
 
-Lancez simplement votre application et utilisez le lien automatiquement généré pour en partager instantanément l’accès avec les personnes de votre choix, sans rien avoir à faire d'autre.
+Avec la section [*Action !*](/fr/action/), découvrez comment réaliser cela en quelques clics, que ce soit avec votre smartphone, votre tablette ou votre ordinateur personnel.
 
-Pour lancer et partager votre première application en quelques minutes, rendez-vous à la section [*Action !*](./action/).
+La section [*Inspiration*](/fr/inspiration/) contient d"autres applications accessibles et modifiables en quelques clics.
+
