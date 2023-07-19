@@ -15,7 +15,7 @@ weight: 5
 
 Le site *zelbinium.q37<span>.<span>info* est un service de communication au public en ligne édité à titre non professionnel au sens de l’article 6, III, 2° de la loi 2004-575 du 21 juin 2004.
 
-Ils est hébergé par :
+Il est hébergé par :
 
 ```text
 OVH - 2 rue Kellermann - 59100 Roubaix - France - RCS Lille Métropole 424 761 419 00045

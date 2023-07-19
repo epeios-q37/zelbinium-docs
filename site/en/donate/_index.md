@@ -1,26 +1,30 @@
 ---
 title: "Donate"
 menu: "Donate"
-weight: 7
+weight: 6
 ---
 
-# Why donate?
+# Your support makes a difference
 
-![](./Donate.jpg)
+![](./CrowdfundingAnimation.gif)
 
-With *Zelbinium*, your children can have fun using their smartphones to create real [connected applications](https://en.wikipedia.org/wiki/Web_application). By spending less time on social media, and using the sharing facilities offered by *Zelbinium* to exchange views on their creations, your children will be less exposed to the all-too-often tragic [drifts](https://en.wikipedia.org/wiki/Cyberbullying) that make the headlines.
+With *Zelbinium*, your kids can let their imaginations run free using their smartphones to create applications for themselves and their peers, reducing the impact of social media without depriving them of their smartphones, while acquiring knowledge in a playful way that will help them better understand our ultra-computerized world.
 
-*Zelbinium* could not exist without the [*Atlas* toolkit](../resources/atk/), a world-class innovation in *cloud computing*. Your donations will be used primarily to finance the resources needed to consolidate the quality of the service. The remainder will be devoted to improving the form and content of the site, so as to offer young people the opportunity to acquire a better understanding and mastery of the digital world, as well as new perspectives for their professional future.
-
-For any questions: [contact page](../contact).
-
+<style>
+  <!-- Retrait règle thème Hugo. -->
+  .markdown table tr:nth-child(2n) {
+	  background: initial;
+  }
+</style>
 
 <div>
-  <table style="display: inline-block; align-content: center;">
+  <table id="support" style="width: fit-content; margin: auto;">
     <tr>
-      <td style="border: none; padding: 0px; padding-right: 10px;">
-        <span style="white-space: no-wrap; width: 100%;"><b>Supprt <em>Zelbinium</em></b>:</span> 
-      </td>
+      <td colspan="2" style="border: none; text-align: center;">
+        <span style="white-space: no-wrap; width: 100%;"><b>Support <em>Zelbinium</em></b>:</span> 
+    </td>
+    </tr>
+    <tr>
       <td>
         <script src="https://liberapay.com/Epeios/widgets/button.js"></script>
         <noscript>
@@ -34,6 +38,8 @@ For any questions: [contact page](../contact).
           <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub"></img>
         </a>
       </td>
+    </tr>
+    <tr>
       <td>
         <a href="https://donate.stripe.com/7sIcOq9Cm7sc5RS000">
           <span style="font-family: sans-serif; font-size: larger; font-weight: bold; color: #635bff;">stripe</span>
@@ -47,4 +53,67 @@ For any questions: [contact page](../contact).
     </tr>
   </table>
 </div>
+
+---
+
+Do you think your child spends too much time on social media? Are you worried that this could expose him or her to the all-too-often dramatic [drifts](https://en.wikipedia.org/wiki/Cyberbullying) that make the headlines?
+
+![](./Cyberharcelement.jpeg)
+
+*Zelbinium* is the easiest way for your kids to create real connected applications, accessible via a [QR code](https://en.wikipedia.org/wiki/Web_application) or a simple link sent by [e-mail](https://en.wikipedia.org/wiki/Email) or [instant messaging](https://en.wikipedia.org/wiki/Instant_messaging).
+
+These applications are usable <u>on</u> smartphones, and can be created <u>with</u> a smartphone, which makes *Zelbinium* particularly attractive to young people, and therefore an activity that will have them spending less time on social media.
+
+What's more, by making their creations easily accessible via social media, *Zelbinium* also changes the nature of our children's exchanges, and will clean up their content.
+
+![](./SafeSocialMedia.jpeg)
+
+The l[anguage used in *Zelbinium*](https://en.wikipedia.org/wiki/Python_(programming_language)) is widely used in professional and educational fields. The knowledge acquired with *Zelbinium* can be used by your children outside *Zelbinium*, during their studies or in their future professional lives.
+
+*Zelbinium* is also based on [web technologies](https://en.wikipedia.org/wiki/HTML5), which are extremely widespread and well-documented, able to manage images, sounds, videos, music, animations... Therefore, *Zelbinium* will also enable your children to unleash their creativity in fields other than programming.
+
+Several children can work together on the same application. Depending on their affinities, some will be in charge of programming, others of sound, still others of graphics... allowing them to discover teamwork while having fun.
+
+![](./Collaboration.jpeg)
+
+Thanks to *Zelbinium*, your children will develop programming skills and digital literacy in general, while strengthening their bonds with their peers through group work.
+
+In today's ubiquitous digital world, the knowledge acquired in this way will be useful to your children in both their personal and professional lives, whether or not their profession is directly linked to IT.
+
+![](./DigitalEverywhere.jpeg)
+
+What makes it unique is the ease with which *Zelbinium* lets you create and share smartphone-adapted applications, enabling users to interact easily each from their own smartphone.
+
+*Zelbinium*'s uniqueness is only possible thanks to the use of the [*Atlas* toolkit](https://atlastk.org/), a world-class innovation in cloud computing, and is [*libre* software](https://en.wikipedia.org/wiki/Free_software).
+
+![](./FreeCloudComputing.jpeg)
+
+This website shows, through its [*Action!*](../action/) section, how, in just a few clicks, launch, share, explore, modify and create an application using your smartphone.
+
+The [*Inspiration*](../inspiration/) section of the same site gives examples of applications that can be directly accessed and modified by following the instructions in the *Action!* section.
+
+All the applications on *Zelbinium* are suitable not only for smartphones, but also for tablets and personal computers. No reason not to get started right away!
+
+![](./GetStarted.jpeg)
+
+As a software engineer, I developed the *Atlas* toolkit in my spare time, but my mainly technical skills, my availability and my financial means are no longer sufficient. Between renting servers and bandwidth, the resources needed to promote the project and to define and develop tools to facilitate the use of *Zelbinium* in actions aimed at young people... your support is just essential to ensure the lasting and development of *Zelbinium*.
+
+You can also help by spreading the word about *Zelbinium*, especially to those who work with your children. This project is also an opportunity to share moments of complicity with your child, by accompanying him or her as they discover *Zelbinium*.
+
+![](./Complicity.jpeg)
+
+Other projects dedicated to digital inclusion are currently being studied, and are only possible thanks to the service at the heart of *Zelbinium*, because nothing else like it exists in the world.
+
+Together, let's build a healthier digital environment for our children, and offer them new career opportunities in a rapidly expanding field.
+
+<div style="margin-bottom: 10px; background-color: green; font-size: larger; padding: 10px;">
+  <span style="display: flex; width: 100;">
+    <a style="margin: auto; background-color: white; color: green; border-radius: 20px; font-family: sans-serif; font-weight: bold; padding: 5px 30px; margin: 10px auto" href="#support">
+      <span>Support <em>Zelbinium</em>!</span>
+    </a>
+  </span>
+</div>
+
+![](./Contribute.jpeg)
+
 

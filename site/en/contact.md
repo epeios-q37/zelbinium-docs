@@ -1,7 +1,7 @@
 ---
 title: Contact
 menu: Contact
-weight: 6
+weight: 7
 ---
 
 # Contact

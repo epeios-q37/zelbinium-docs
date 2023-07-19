@@ -7,10 +7,21 @@ bookCollapseSection: false
 
 # Inspiration
 
-Here are a few applications, many of which are games, some of which can be played by several players.  All these applications are grouped together in the repository at <https://github.com/epeios-q37/zelbinium>. The term in brackets is the name of the folder in which the source code for each application is located.
+Here are a few applications, some of which allow users to interact (two-panel preview). All these applications are grouped together in the repository at <https://github.com/epeios-q37/zelbinium>. The term in brackets is the name of the folder in which the source code for each application is located.
 
 Clicking on an application's preview gives you access to its *repl*, from which the application can be [launched](../action/launch), [shared](../action/share), [explored](../action/explore), [modified](../action/modify) and used as inspiration to [create](../action/create) your own applications, as detailed in the [*Action!*](../action/) section.
 
+## *Hello, World!* (`Hello`)
+
+[*Hello, World!*](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) program showing the basics of a *Zelbinium* application. The application simply displays a message showing the contents of a text field.
+
+<div data-demo="Hello"></div>
+
+## *Hello, World!* shared (`Hellos`)
+
+Same application as above, but messages are displayed to all users. Shows the basics of an application that allows users to interact.
+
+<div data-demo="Hellos"></div>
 
 ## *Messages* (`Messages`)
 
@@ -52,14 +63,13 @@ You can choose to play against the computer, or with a partner.
 
 <div data-demo="PigGame"></div>
 
-
 <script>
     function demoLink(element) {
         const demo = element.getAttribute("data-demo");
         element.innerHTML = '\
 <center>\
     <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\
-        <img src="./' + demo +  '.png"/>\
+        <img src="./' + demo +  '.gif"/>\
     </a>\
 </center>';
     }

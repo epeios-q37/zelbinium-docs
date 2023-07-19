@@ -7,9 +7,21 @@ bookCollapseSection: false
 
 # Inspiration
 
-Voici quelques applications dont beaucoup sont des jeux, certains pouvant se jouer à plusieurs.  L'ensemble de ces applications sont regroupées dans le dépôt à l'adresse <https://github.com/epeios-q37/zelbinium>. Le terme entre parenthèses est le nom du dossier dans lequel se situe le code source de chaque application.
+Voici quelques applications dont certaines permettent aux utilisateurs d'interagir (prévisualisation avec deux panneaux).  L'ensemble de ces applications sont regroupées dans le dépôt à l'adresse <https://github.com/epeios-q37/zelbinium>. Le terme entre parenthèses est le nom du dossier dans lequel se situe le code source de chaque application.
 
 En cliquant sur l'aperçu d'une application, vous aurez accès à son *repl*, à partir duquel l'application pourra être [lancée](../action/launch), [partagée](../action/share), [explorée](../action/explore), [modifiée](../action/modify) et servir d'inspiration pour [créer](../action/create) ses propres applications, comme détaillé dans la section [*Action !*](../action/).
+
+## *Hello world* (`Hello`)
+
+Programme de type [*Hello world*](https://fr.wikipedia.org/wiki/Hello_world) montrant les bases d'une application *Zelbinium*. L'application affiche simplement un message reprenant le contenu d'un champ texte.
+
+<div data-demo="Hello"></div>
+
+## *Hello world* partagé (`Hellos`)
+
+Même application que précédemment, mais les messages sont affichés à tous les utilisateurs. Montre les bases d'une application permettant à ses utilisateurs d'interagir.
+
+<div data-demo="Hellos"></div>
 
 ## *Messages* (`Messages`)
 
@@ -61,7 +73,7 @@ Le premier joueur à marquer 100 points ou plus gagne.
         element.innerHTML = '\
 <center>\
     <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\
-        <img src="./' + demo +  '.png"/>\
+        <img src="./' + demo +  '.gif"/>\
     </a>\
 </center>';
     }

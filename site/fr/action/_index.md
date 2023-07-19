@@ -15,9 +15,18 @@ Dans cette section du site, on verra comment réaliser différentes actions rela
 
 Un encart donne accès à un dépôt hébergé par [*Replit*](../resources/replit/). Un tel dépôt porte le nom de *repl*. Dans le cadre de *Zelbinium*, chaque application a son propre *repl*.
 
-L'application utilisée à titre d’exemple dans cette section permet à ses utilisateurs d'échanger des messages. L'animation ci-dessous montre le lancement, à l'aide de l'encart ci-dessus, de l’application à partir d'un smartphone, un autre smartphone y accédant en scannant un code QR, puis l'échange de quelques messages entre les deux appareils.
+L'application utilisée à titre d’exemple dans cette section permet d"échanger des messages avec n'importe qui juste en lui faisant scanner le code QR généré par l'application avec son smartphone (plus de détails seront donnés dans la sous-section [*Partager*](./share)).
 
-![](./DemoFR.gif)
+<div style="position: relative; width: 100%; text-align: center">
+    <img style="margin: auto;" src="./Action.png">
+    <span style="position: absolute; bottom : 20px; left: 50%; font-size: 1.4vmin;">
+    <span>Crée avec </span>
+    <a href="https://framalab.org/gknd-creator/" target="_blank">
+        <em>GéGé</em>
+    </a>
+    <span>.</span>
+    <span>
+</div>
 
 Dans les sous-sections ci-dessous, on sera invité à réaliser différentes actions en utilisant les boutons présents dans l'encart en début de page. Le bouton *Open on Replit* de cet encart affiche le *repl* correspondant dans son propre onglet ; on y retrouvera les mêmes boutons que dans sa présentation ci-dessus et on peut donc utiliser indifféremment l'encart ou son affichage dans un onglet.
 
