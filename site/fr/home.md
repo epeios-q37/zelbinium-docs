@@ -19,7 +19,7 @@ weight: 1
 - Utilisez votre smartphone pour facilement créer de véritables [applications connectées](https://fr.wikipedia.org/wiki/Application_web) pour smartphones, tablettes ou ordinateurs personnels ;
 - donnez instantanément accès à vos applications à l'aide d'un [code QR](https://fr.wikipedia.org/wiki/Code_QR) ou d'un lien transmis via un message [électronique](https://fr.wikipedia.org/wiki/Courrier_%C3%A9lectronique) ou [instantané](https://fr.wikipedia.org/wiki/Messagerie_instantan%C3%A9e).
 
-<div style="border: solid 1px; position: relative; width:100%; display: flex; justify-content: space-between;">
+<div style="position: relative; width:100%; display: flex; justify-content: space-between;">
   <a href="/fr/action/">
     <img src="/fr/Action.png">
   </a>
@@ -34,3 +34,6 @@ weight: 1
     <span>.</span>
   <span>
 </div>
+
+- [*Action !*](/fr/action/) : section montrant les différentes actions réalisables sur le code source d'une application simplement à partir de votre navigateurs web ;
+- [*Inspiration*](/fr/inspiration) : section comprenant des applications que vous pouvez modifier à partir de votre navigateur web et dont vous pouvez vous inspirer pour créer vos propres applications.

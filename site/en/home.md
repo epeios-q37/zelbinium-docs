@@ -19,7 +19,7 @@ weight: 1
 - Use your smartphone to easily create true [connected applications](https://en.wikipedia.org/wiki/Web_application) for smartphones, tablets or personal computers;
 - give instant access to your applications using a [QR code](https://en.wikipedia.org/wiki/QR_code) or a link sent via an [email](https://en.wikipedia.org/wiki/Email) or [instant message](https://en.wikipedia.org/wiki/Instant_messaging).
 
-<div style="border: solid 1px; width:100%; position: relative; display: flex; justify-content: space-between;">
+<div style="width:100%; position: relative; display: flex; justify-content: space-between;">
   <a href="/en/action/">
     <img src="/en/Action.png">
   </a>
@@ -33,4 +33,7 @@ weight: 1
     <span>.</span>
   <span>
 </div>
+
+- [*Action!*](/en/action/): section showing the various actions you can perform on the source code of an application simply from your web browser ;
+- [*Inspiration*](/en/inspiration): section featuring applications you can modify from your web browser, and draw inspiration from to create your own applications.
 
