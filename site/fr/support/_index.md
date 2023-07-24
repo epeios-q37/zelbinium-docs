@@ -1,14 +1,15 @@
 ---
-title: "Faire un don"
-menu: "Faire un don"
+title: "Soutenir"
+menu: "Soutenir"
 weight: 6
+aliases: ["/fr/donate"]
 ---
 
 # Votre soutien fait la différence
 
 ![](./CrowdfundingAnimation.gif)
 
-Avec *Zelbinium*, vos enfants pourront laisser libre cours à leur imagination en utilisant leur smartphone pour créer des applications pour eux et leurs camarades, réduisant ainsi l'impact des media sociaux sans les priver de leur smartphone tout en acquérant de manière ludique des connaissances leur permettant de mieux appréhender notre monde ultra-informatisé.
+Avec *Zelbinium*, au lieu de passer leur temps sur des jeux vidéos ou les média sociaux avec tous les risques d'addiction que cela comporte, vos enfant utiliseront leur smartphone pour créer leurs propres applications. En facilitant le partage de de leurs créations, *Zelbinium* donnera à vos enfants l'occasion de tisser de nouveaux liens avec leurs camarades, diminuant les risques de cyberharcèlement tout en stimulant leur créativité.
 
 <style>
   <!-- Retrait règle thème Hugo. -->
@@ -56,15 +57,15 @@ Avec *Zelbinium*, vos enfants pourront laisser libre cours à leur imagination e
 
 ---
 
-Vous trouvez que votre enfant passe trop de temps sur les média sociaux ? Vous craignez que cela ne l'expose à ces [dérives](https://fr.wikipedia.org/wiki/Cyberharc%C3%A8lement) aux conséquences trop souvent dramatiques qui font la une des journaux ?
+Avez-vous peur que votre enfant ne passe trop de temps sur son smartphone ? Craignez-vous une dépendance ou que cela ne l'expose à ces [dérives](https://fr.wikipedia.org/wiki/Cyberharc%C3%A8lement) aux conséquences trop souvent dramatiques qui font la une des journaux ?
 
 ![](./Cyberharcelement.jpeg)
 
 *Zelbinium* est le moyen le plus facile pour vos enfants de créer de véritables [applications connectées](https://fr.wikipedia.org/wiki/Application_web), accessibles via un [code QR](https://fr.wikipedia.org/wiki/Code_QR) ou un simple lien transmis par messagerie [électronique](https://fr.wikipedia.org/wiki/Courrier_%C3%A9lectronique) ou [instantanée](https://fr.wikipedia.org/wiki/Messagerie_instantan%C3%A9e).
 
-Ces applications sont utilisables <u>sur</u> smartphone, et peuvent être crées <u>avec</u> un smartphone, ce qui rend *Zelbinium* particulièrement attractif pour les jeunes et, de ce fait, constitue une activité qui leur fera passer moins de temps sur les média sociaux.
+Ces applications sont utilisables <u>sur</u> smartphone, et peuvent être crées <u>avec</u> un smartphone, ce qui rend *Zelbinium* particulièrement attractif pour les jeunes, les poussant à passer moins de temps sur les jeux vidéos ou les media sociaux. Contrairement à ces derniers, *Zelbinium* stimule la créativité de vos enfants et ne présente donc pas les mêmes risques d'addiction.
 
-En outre, en rendant leurs réalisations facilement accessibles via les média sociaux, *Zelbinium* change également la nature des échanges qu'entretiennent nos enfants et en assainira le contenu.
+En outre, en rendant leurs réalisations facilement accessibles via les média sociaux, *Zelbinium* change également la nature des échanges qu'entretiennent nos enfants et en assainira le contenu, réduisant les risques de cyberharcèlement.
 
 ![](./SafeSocialMedia.jpeg)
 
