@@ -35,9 +35,7 @@ weight: 1
   <span style="position: absolute; bottom : 0px; left: 40%; font-size: 1.8vmin;">
     <span>Crée avec </span>
     <a href="https://framalab.org/gknd-creator/" target="_blank">
-      <em>GéGé</em>
-    </a>
-    <span>.</span>
+      <em>GéGé</em></a><span>.</span>
   <span>
 </div>
 

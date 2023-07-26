@@ -9,7 +9,7 @@ aliases: ["/fr/donate"]
 
 ![](./CrowdfundingAnimation.gif)
 
-Avec *Zelbinium*, au lieu de passer leur temps sur des jeux vidéos ou les média sociaux avec tous les risques d'addiction que cela comporte, vos enfant utiliseront leur smartphone pour créer leurs propres applications. En facilitant le partage de de leurs créations, *Zelbinium* donnera à vos enfants l'occasion de tisser de nouveaux liens avec leurs camarades, diminuant les risques de cyberharcèlement tout en stimulant leur créativité.
+Avec *Zelbinium*, au lieu de passer leur temps sur les jeux vidéo ou les médias sociaux, avec tous les risques d'addiction que cela comporte, vos enfants utiliseront leur smartphone pour une activité bien plus passionnante : créer leurs propres applications. Et en facilitant le partage de leurs créations, *Zelbinium* deviendra probablement l'un des sujets de discussion préférés de nos enfants, réduisant ainsi le risque de cyberharcèlement tout en stimulant leur créativité.
 
 <style>
   <!-- Retrait règle thème Hugo. -->
@@ -97,7 +97,7 @@ Toutes les applications présentes sur *Zelbinium* sont accessibles sur smartpho
 
 ![](./GetStarted.jpeg)
 
-Ingénieur logiciel, j'ai développé le toolkit Atlas sur mon temps libre mais mes compétences, essentiellement techniques, mes disponibilités et mes moyens financiers n'y suffisent plus. Entre la location des serveurs et de la bande passante, les ressources nécessaires pour faire connaître le projet ainsi que pour définir et mettre au point les outils facilitant l'utilisation de *Zelbinium* dans des actions à destination des jeunes… votre soutien est juste indispensable pour pérenniser et développer *Zelbinium*.
+Ingénieur logiciel, j'ai développé le toolkit *Atlas* sur mon temps libre mais mes compétences, essentiellement techniques, mes disponibilités et mes moyens financiers n'y suffisent plus. Entre la location des serveurs et de la bande passante, les ressources nécessaires pour faire connaître le projet ainsi que pour définir et mettre au point les outils facilitant l'utilisation de *Zelbinium* dans des actions à destination des jeunes… votre soutien est juste indispensable pour pérenniser et développer *Zelbinium*.
 
 Vous pouvez également contribuer en faisant connaître *Zelbinium* autour de vous, notamment à ceux qui interviennent auprès de vos enfants. Ce projet est également l'occasion de partager des moments de complicité avec votre enfant, en l'accompagnant dans sa découverte de *Zelbinium*.
 

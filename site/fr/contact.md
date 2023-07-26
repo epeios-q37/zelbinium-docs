@@ -10,6 +10,6 @@ Pour contribuer au contenu de ce site et à *Zelbinium* en général : <https:/
 
 Le code source des applications présentes sur ce site : <https://github.com/epeios-q37/zelbinium>.
 
-Pour faire un don : [page de dons](../support). 
+Pour soutenir ce projet : [page de soutien](../support). 
 
 Pour contacter le responsable de ce site : <https://q37.info/contact>.
