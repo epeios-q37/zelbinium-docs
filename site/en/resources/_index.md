@@ -7,7 +7,7 @@ bookCollapseSection: true
 
 # Ressources
 
-- [*HTML*/*CSS*](./html)  languages used in *Zelbinium* to create graphical interfaces;
+- [*HTML*/*CSS*](./html): languages used in *Zelbinium* to create graphical interfaces;
 - [*Python*](./python): the programming language used in *Zelbinium*;
 - [*JSBin*](./jsbin/): on-the-fly rendering in a web browser of *HTML* and *CSS* code;
 - [*Replit*](./replit): *Python* in a web browser;

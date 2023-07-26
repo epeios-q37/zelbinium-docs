@@ -9,8 +9,8 @@ bookCollapseSection: true
 
 - [*HTML*/*CSS*](./html) : langages utilisées dans *Zelbinium* pour créer des interfaces graphiques ;
 - [*Python*](./python) : le langage de programmation utilisé dans *Zelbinium* ;
-- [*JSBin*](./jsbin/) : rendu à la volée dans votre navigateur web du code *HTML* et *CSS* ;
-- [*Replit*](./replit) : *Python* dans son navigateur web ;
+- [*JSBin*](./jsbin/) : rendu à la volée dans un navigateur web du code *HTML* et *CSS* ;
+- [*Replit*](./replit) : *Python* dans un navigateur web ;
 - [*Termux*](./termux) : *Python* sous *Android* ;
 - [*iSH*](./ish) : *Python* sous *iOS* et dérivés (pour des appareils comme l'*iPhone*, l'*iPad*…) ;
 - [*Les forges logicielles*](./forges) : héberger le code source de ses applications dans le *cloud* ;
