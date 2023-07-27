@@ -9,8 +9,8 @@ weight: 1
 
 <div style="margin-bottom: 10px; background-color: green; font-size: larger; padding: 10px;">
   <span style="display: block; text-align: center; ; color: white;">Pour le bien-être de nos enfants :</span>
-  <span style="display: flex; width: 100;">
-    <a  style="margin: auto; background-color: white; color: green; border-radius: 20px; font-family: sans-serif; font-weight: bold; padding: 5px 30px; margin: 10px auto" href="../support">Soutenir <em>Zelbinium</em></a>
+  <span style="display: flex;">
+    <a style="margin: auto; background-color: white; color: green; border-radius: 20px; font-family: sans-serif; font-weight: bold; padding: 5px 30px; margin: 10px auto" href="../support">Soutenir <em>Zelbinium</em></a>
   </span>
 </div>
 
