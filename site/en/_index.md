@@ -3,7 +3,7 @@ title: "Redirection…"
 ---
 
 <script>
-    window.location.href = "home"
+    window.location.href = "home/"
 </script>
 <noscript>
     <div>

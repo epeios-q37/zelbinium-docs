@@ -19,7 +19,7 @@ weight: 1
 - Utilisez votre smartphone pour facilement créer de véritables [applications connectées](https://fr.wikipedia.org/wiki/Application_web) pour smartphones, tablettes ou ordinateurs personnels ;
 - donnez instantanément accès à vos applications à l'aide d'un [code QR](https://fr.wikipedia.org/wiki/Code_QR) ou d'un lien transmis via un message [électronique](https://fr.wikipedia.org/wiki/Courrier_%C3%A9lectronique) ou [instantané](https://fr.wikipedia.org/wiki/Messagerie_instantan%C3%A9e).
 
-<div style="position: relative; width: 100%;">
+<div style="text-align: center; width: 100%;">
   <!-- Fait avec https://imagemapper.pageballoon.com/#/ -->
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 868 403">
     <image width="868" height="403" xlink:href="Incitation.png"></image> <a xlink:href="../action">
@@ -32,11 +32,11 @@ weight: 1
       <rect x="214" y="212" fill="#fff" opacity="0" width="654" height="191"></rect>
     </a>
   </svg>
-  <span style="position: absolute; bottom : 0px; left: 40%; font-size: 1.8vmin;">
+  <div style="font-size: small;">
     <span>Crée avec </span>
     <a href="https://framalab.org/gknd-creator/" target="_blank">
       <em>GéGé</em></a><span>.</span>
-  <span>
+  </div>
 </div>
 
 - [*Action !*](../action) : section montrant les différentes actions réalisables sur le code source d'une application simplement à partir de votre navigateurs web ;

@@ -16,7 +16,7 @@ weight: 1
 - Use your smartphone to easily create true [connected applications](https://en.wikipedia.org/wiki/Web_application) for smartphones, tablets or personal computers;
 - give instant access to your applications using a [QR code](https://en.wikipedia.org/wiki/QR_code) or a link sent via an [email](https://en.wikipedia.org/wiki/Email) or [instant message](https://en.wikipedia.org/wiki/Instant_messaging).
 
-<div style="width:100%; position: relative">
+<div style="width:100%; text-align: center;">
   <!-- Fait avec https://imagemapper.pageballoon.com/#/ -->
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 868 403">
     <image width="868" height="403" xlink:href="Incitation.png"></image> <a xlink:href="../action">
@@ -29,11 +29,11 @@ weight: 1
       <rect x="214" y="212" fill="#fff" opacity="0" width="654" height="191"></rect>
     </a>
   </svg>
-  <span style="position: absolute; bottom : 0px; left: 40%;font-size: 1.8vmin;">
+  <div style="font-size: small;">
     <span>Created with </span>
     <a href="https://framalab.org/gknd-creator/">
-    <em>GéGé</em></a><span>.</span>
-  <span>
+      <em>GéGé</em></a><span>.</span>
+  </div>
 </div>
 
 - [*Action!*](../action/): section showing the various actions you can perform on the source code of an application simply from your web browser ;

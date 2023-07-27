@@ -17,15 +17,13 @@ Un encart donne accès à un dépôt hébergé par [*Replit*](../resources/repli
 
 L'application utilisée à titre d’exemple dans cette section permet d"échanger des messages avec n'importe qui juste en lui faisant scanner le code QR généré par l'application avec son smartphone (plus de détails seront donnés dans la sous-section [*Partager*](./share)).
 
-<div style="position: relative; width: 100%; text-align: center">
-    <img style="margin: auto;" src="./Action.png">
-    <span style="position: absolute; bottom : 20px; left: 50%; font-size: 1.4vmin;">
+<div style="width: 100%; text-align: center">
+  <img style="margin: auto;" src="./Action.png"></img>
+  <div style="font-size: small;">
     <span>Crée avec </span>
     <a href="https://framalab.org/gknd-creator/" target="_blank">
-        <em>GéGé</em>
-    </a>
-    <span>.</span>
-    <span>
+      <em>GéGé</em></a><span>.</span>
+  </div>
 </div>
 
 Dans les sous-sections ci-dessous, on sera invité à réaliser différentes actions en utilisant les boutons présents dans l'encart en début de page. Le bouton *Open on Replit* de cet encart affiche le *repl* correspondant dans son propre onglet ; on y retrouvera les mêmes boutons que dans sa présentation ci-dessus et on peut donc utiliser indifféremment l'encart ou son affichage dans un onglet.
