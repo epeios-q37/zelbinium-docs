@@ -13,8 +13,8 @@ weight: 1
 
 <center><img src="AnimatedLogo.gif" alt="Logo Zelbinium"/></center>
 
-- Use your smartphone to easily create true [connected applications](https://en.wikipedia.org/wiki/Web_application) for smartphones, tablets or personal computers;
-- give instant access to your applications using a [QR code](https://en.wikipedia.org/wiki/QR_code) or a link sent via an [email](https://en.wikipedia.org/wiki/Email) or [instant message](https://en.wikipedia.org/wiki/Instant_messaging).
+- Use your smartphone, tablet or personal computer to easily create true [connected applications](https://en.wikipedia.org/wiki/Web_application);
+- share the access to your applications using a [QR code](https://en.wikipedia.org/wiki/QR_code) or your preferred [email](https://en.wikipedia.org/wiki/Email) or [instant messaging](https://en.wikipedia.org/wiki/Instant_messaging) application.
 
 <div style="width: 100%; text-align: center;">
   <!-- Fait avec https://imagemapper.pageballoon.com/#/ -->

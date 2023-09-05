@@ -64,20 +64,23 @@ You can choose to play against the computer, or with a partner.
 <div data-demo="PigGame"></div>
 
 <script>
-    function demoLink(element) {
-        const demo = element.getAttribute("data-demo");
-        element.innerHTML = '\
+  function demoLink(element) {
+    const demo = element.getAttribute("data-demo");
+    element.innerHTML = '\
 <center>\
+  <div style="font-size: smaller; font-style: oblique;">Click <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">here</a> or on the preview to access the application.</div>\
+  <div>\
     <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\
-        <img src="./' + demo +  '.gif"/>\
+      <img src="./' + demo +  '.gif"/>\
     </a>\
+  </div>\
 </center>';
-    }
+  }
 
-    const demos = document.getElementsByTagName("div");
+  const demos = document.getElementsByTagName("div");
 
-    for ( const demo of demos ) {
-        if ( demo.hasAttribute("data-demo") )
-            demoLink(demo);
-    }
+  for ( const demo of demos ) {
+    if ( demo.hasAttribute("data-demo") )
+      demoLink(demo);
+  }
 </script>

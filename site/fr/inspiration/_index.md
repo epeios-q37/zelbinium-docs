@@ -72,9 +72,12 @@ Le premier joueur à marquer 100 points ou plus gagne.
         const demo = element.getAttribute("data-demo");
         element.innerHTML = '\
 <center>\
+    <div style="font-size: smaller; font-style: oblique;">Cliquer <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\ici</a> ou sur l\'aperçu pour avoir accès à l\'application.</div>\
+    <div>\
     <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\
         <img src="./' + demo +  '.gif"/>\
     </a>\
+    </div>\
 </center>';
     }
 

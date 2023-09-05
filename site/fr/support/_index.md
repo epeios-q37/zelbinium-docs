@@ -9,7 +9,7 @@ aliases: ["/fr/donate"]
 
 ![](./CrowdfundingAnimation.gif)
 
-Avec *Zelbinium*, au lieu de passer leur temps sur les jeux vidéo ou les médias sociaux, avec tous les risques d'addiction que cela comporte, vos enfants utiliseront leur smartphone pour une activité bien plus passionnante : créer leurs propres applications. Et en facilitant le partage de leurs créations, *Zelbinium* deviendra probablement l'un des sujets de discussion préférés de nos enfants, réduisant ainsi le risque de cyberharcèlement tout en stimulant leur créativité.
+Avec *Zelbinium*, vos enfants passeront moins de temps sur les jeux vidéo et les médias sociaux au profit d'une activité bien plus gratifiante : créer leurs propres applications. En plus de stimuler leur créativité et prévenir les risques de dépendance, *Zelbinium* leur permet de facilement partager leurs créations et ainsi tisser avec leurs camarades des liens de nature à limiter les risques de cyberharcèlement.
 
 <style>
   <!-- Retrait règle thème Hugo. -->
@@ -57,7 +57,7 @@ Avec *Zelbinium*, au lieu de passer leur temps sur les jeux vidéo ou les média
 
 ---
 
-Avez-vous peur que votre enfant ne passe trop de temps sur son smartphone ? Craignez-vous une dépendance ou que cela ne l'expose à ces [dérives](https://fr.wikipedia.org/wiki/Cyberharc%C3%A8lement) aux conséquences trop souvent dramatiques qui font la une des journaux ?
+Craignez-vous que votre enfant ne passe trop de temps sur son smartphone ? Redoutez-vous une dépendance ou que cela ne l'expose à ces [dérives](https://fr.wikipedia.org/wiki/Cyberharc%C3%A8lement) aux conséquences trop souvent dramatiques qui font la une des journaux ?
 
 ![](./Cyberharcelement.jpeg)
 

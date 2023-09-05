@@ -9,7 +9,7 @@ aliases: ["/en/donate"]
 
 ![](./CrowdfundingAnimation.gif)
 
-With *Zelbinium*, instead of spending their time on video games or social media, with all the risks of addiction that entails, your kids will be using their smartphones for a far more exciting activity: creating their own applications. And by making it easy to share their creations, *Zelbinium* will probably become one of our children's favorite discussion topics, reducing the risk of cyberbullying while stimulating their creativity.
+With *Zelbinium*, your kids will spend less time on video games and social media for a far more rewarding activity: creating their own apps. In addition to stimulating their creativity and preventing the risk of addiction, *Zelbinium* makes it easy for them to share their creations, thus forging with their fellows bonds that limit the risk of cyber-bullying.
 
 
 <style>
