@@ -29,6 +29,12 @@ This is the application used in the [*Action!*](../action/) section. It allows m
 
 <div data-demo="Messages"></div>
 
+## *Widgets* (`Widgets`)
+
+This application shows an example of use of commonly used graphical interface components ([*widgets*](https://en.wikipedia.org/wiki/Graphical_widget)) and the corresponding source code (*HTML* and *Python*).
+
+<div data-demo="Widgets"></div>
+
 ## *Connect Four* (`FourInARow`)
 
 The [*Connect Four*](https://en.wikipedia.org/wiki/Connect_Four) game.

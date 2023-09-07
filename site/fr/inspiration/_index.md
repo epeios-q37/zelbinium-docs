@@ -29,6 +29,12 @@ Il s'agit de l'application utilisée dans la section [*Action !*](../action/). E
 
 <div data-demo="Messages"></div>
 
+## *Widgets* (`Widgets`)
+
+Cette application montre un exemple d'utilisation de composants d'interface graphique ([*widgets*](https://fr.wikipedia.org/wiki/Composant_d%27interface_graphique)) couramment utilisés et le code source (*HTML* et *Python*) correspondant.
+
+<div data-demo="Widgets"></div>
+
 ## *Puissance 4* (`FourInARow`)
 
 Le jeu [*Puissance 4*](https://fr.wikipedia.org/wiki/Puissance_4).
@@ -72,7 +78,7 @@ Le premier joueur à marquer 100 points ou plus gagne.
         const demo = element.getAttribute("data-demo");
         element.innerHTML = '\
 <center>\
-    <div style="font-size: smaller; font-style: oblique;">Cliquer <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\ici</a> ou sur l\'aperçu pour avoir accès à l\'application.</div>\
+    <div style="font-size: smaller; font-style: oblique;">Cliquer <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\ici</a> ou sur l\'aperçu accéder à l\'application.</div>\
     <div>\
     <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\
         <img src="./' + demo +  '.gif"/>\
