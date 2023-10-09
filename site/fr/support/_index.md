@@ -9,7 +9,11 @@ aliases: ["/fr/donate"]
 
 ![](./CrowdfundingAnimation.gif)
 
-Avec *Zelbinium*, vos enfants passeront moins de temps sur les jeux vidéo et les médias sociaux au profit d'une activité bien plus gratifiante : créer leurs propres applications. En plus de stimuler leur créativité et prévenir les risques de dépendance, *Zelbinium* leur permet de facilement partager leurs créations et ainsi tisser avec leurs camarades des liens de nature à limiter les risques de cyberharcèlement.
+<br/>
+
+Avec *Zelbinium*, vos enfants utiliseront leur smartphone pour créer des contenus originaux qu'ils pourront facilement partager via les médias sociaux, limitant ainsi leur exposition aux contenus trop souvent inappropriés propagés par ces derniers.
+
+<br/>
 
 <style>
   <!-- Retrait règle thème Hugo. -->
@@ -18,8 +22,10 @@ Avec *Zelbinium*, vos enfants passeront moins de temps sur les jeux vidéo et le
   }
 </style>
 
+<span id="support"/>
+
 <div>
-  <table id="support" style="width: fit-content; margin: auto;">
+  <table style="padding: 15px; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;width: fit-content; margin: auto;">
     <tr>
       <td colspan="2" style="border: none; text-align: center;">
         <span style="white-space: no-wrap; width: 100%;"><b>Soutenez <em>Zelbinium</em></b> :</span> 
@@ -54,6 +60,8 @@ Avec *Zelbinium*, vos enfants passeront moins de temps sur les jeux vidéo et le
     </tr>
   </table>
 </div>
+
+<br/>
 
 ---
 
@@ -115,6 +123,4 @@ Dés à présent, construisons ensemble un environnement numérique plus sain po
   </span>
 </div>
 
-
-![](./Contribute.jpeg)
-
+[![](./Contribute.jpeg)](#support)

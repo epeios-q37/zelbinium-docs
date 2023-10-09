@@ -8,13 +8,13 @@ weight: 1
 <!-- Les URL doivent être absolus !!! -->
 
 <div style="margin-bottom: 10px; background-color: green; font-size: larger; padding: 10px;">
-  <span style="display: block; text-align: center; ; color: white;">Pour le bien-être de nos enfants :</span>
+  <!--span style="display: block; text-align: center; ; color: white;">Pour le bien-être de nos enfants :</span-->
   <span style="display: flex;">
-    <a style="margin: auto; background-color: white; color: green; border-radius: 20px; font-family: sans-serif; font-weight: bold; padding: 5px 30px; margin: 10px auto" href="../support">Soutenir <em>Zelbinium</em></a>
+    <a style="background-color: white; color: green; border-radius: 20px; font-family: sans-serif; font-weight: bold; padding: 5px 30px; margin: 10px auto" href="../support">Soutenir <em>Zelbinium</em></a>
   </span>
 </div>
 
-<center><img src="AnimatedLogo.gif" alt="Logo Zelbinium"/></center>
+[![](AnimatedLogo.gif)](../support)
 
 - Utilisez votre smartphone, tablette ou ordinateur personnel pour facilement créer de véritables [applications connectées](https://fr.wikipedia.org/wiki/Application_web) ;
 - partagez l'accès à vos applications à l'aide d'un [code QR](https://fr.wikipedia.org/wiki/Code_QR) ou en utilisant votre application de messagerie [électronique](https://fr.wikipedia.org/wiki/Courrier_%C3%A9lectronique) ou [instantanée](https://fr.wikipedia.org/wiki/Messagerie_instantan%C3%A9e) préférée.

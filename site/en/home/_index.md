@@ -5,13 +5,13 @@ weight: 1
 ---
 
 <div style="margin-bottom: 10px; background-color: green; font-size: larger; padding: 10px;">
-  <span style="display: block; text-align: center; ; color: white;">For the well-being of our children:</span>
+  <!--span style="display: block; text-align: center; ; color: white;">For the well-being of our children:</span-->
   <span style="display: flex;">
-    <a style="margin: auto; background-color: white; color: green; border-radius: 20px; font-family: sans-serif; font-weight: bold; padding: 5px 30px; margin: 10px auto" href="../support">Support <em>Zelbinium</em></a>
+    <a style="background-color: white; color: green; border-radius: 20px; font-family: sans-serif; font-weight: bold; padding: 5px 30px; margin: 10px auto" href="../support">Support <em>Zelbinium</em></a>
   </span>
 </div>
 
-<center><img src="AnimatedLogo.gif" alt="Logo Zelbinium"/></center>
+[![](AnimatedLogo.gif)](../support)
 
 - Use your smartphone, tablet or personal computer to easily create true [connected applications](https://en.wikipedia.org/wiki/Web_application);
 - share the access to your applications using a [QR code](https://en.wikipedia.org/wiki/QR_code) or your preferred [email](https://en.wikipedia.org/wiki/Email) or [instant messaging](https://en.wikipedia.org/wiki/Instant_messaging) application.

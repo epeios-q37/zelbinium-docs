@@ -7,10 +7,15 @@ aliases: ["/en/donate"]
 
 # Your support makes a difference
 
-![](./CrowdfundingAnimation.gif)
+<center>
+    <img style="box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; border-radius: 15px;" src="./CrowdfundingAnimation.gif" alt="Logo Zelbinium"/>
+</center>
 
-With *Zelbinium*, your kids will spend less time on video games and social media for a far more rewarding activity: creating their own apps. In addition to stimulating their creativity and preventing the risk of addiction, *Zelbinium* makes it easy for them to share their creations, thus forging with their fellows bonds that limit the risk of cyber-bullying.
+<br/>
 
+With *Zelbinium*, your kids will use their smartphones to create original content that they can easily share via social media, limiting their exposure to the all-too-frequently inappropriate content propagated by the latter.
+
+<br/>
 
 <style>
   <!-- Retrait règle thème Hugo. -->
@@ -19,8 +24,10 @@ With *Zelbinium*, your kids will spend less time on video games and social media
   }
 </style>
 
+<span id="support"/>
+
 <div>
-  <table id="support" style="width: fit-content; margin: auto;">
+  <table style="padding: 15px; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;width: fit-content; margin: auto;">
     <tr>
       <td colspan="2" style="border: none; text-align: center;">
         <span style="white-space: no-wrap; width: 100%;"><b>Support <em>Zelbinium</em></b>:</span> 
@@ -55,6 +62,8 @@ With *Zelbinium*, your kids will spend less time on video games and social media
     </tr>
   </table>
 </div>
+
+<br/>
 
 ---
 
@@ -116,6 +125,4 @@ Together, let's build a healthier digital environment for our children, and offe
   </span>
 </div>
 
-![](./Contribute.jpeg)
-
-
+[![](./Contribute.jpeg)](#support)

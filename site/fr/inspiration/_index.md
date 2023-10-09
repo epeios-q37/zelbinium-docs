@@ -7,9 +7,11 @@ bookCollapseSection: false
 
 # Inspiration
 
-Voici quelques applications dont certaines permettent aux utilisateurs d'interagir (prévisualisation avec deux panneaux).  L'ensemble de ces applications sont regroupées dans le dépôt à l'adresse <https://github.com/epeios-q37/zelbinium>. Le terme entre parenthèses est le nom du dossier dans lequel se situe le code source de chaque application.
+Voici quelques applications dont certaines permettent aux utilisateurs d'interagir entre eux (prévisualisation avec deux panneaux).  L'ensemble de ces applications sont regroupées dans le dépôt à l'adresse <https://github.com/epeios-q37/zelbinium>. Le terme entre parenthèses est le nom du dossier dans lequel se situe le code source de chaque application.
 
 En cliquant sur l'aperçu d'une application, vous aurez accès à son *repl*, à partir duquel l'application pourra être [lancée](../action/launch), [partagée](../action/share), [explorée](../action/explore), [modifiée](../action/modify) et servir d'inspiration pour [créer](../action/create) ses propres applications, comme détaillé dans la section [*Action !*](../action/).
+
+Un clic sur *Code* affiche le code source de l'application. Une application peut avoir plus d'un fichier source, qui peuvent être affichés à partir de son *repl*.
 
 ## *Hello world* (`Hello`)
 
@@ -73,24 +75,78 @@ Le premier joueur à marquer 100 points ou plus gagne.
 
 <div data-demo="PigGame"></div>
 
+<!-- -->
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/xt256.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+<style>
+  details {
+    padding: 1rem 0.3rem !important;
+  }
+  pre {
+    word-wrap: break-word;
+    white-space: break-spaces;
+    font-size: small;
+    line-height: normal;
+    padding: 1rem 0.4rem !important;
+    height: 500px;
+  }
+  summary:focus {
+    outline-style: none;
+  }
+</style>
+
 <script>
-    function demoLink(element) {
-        const demo = element.getAttribute("data-demo");
-        element.innerHTML = '\
-<center>\
-    <div style="font-size: smaller; font-style: oblique;">Cliquer <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\ici</a> ou sur l\'aperçu accéder à l\'application.</div>\
-    <div>\
-    <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\
-        <img src="./' + demo +  '.gif"/>\
-    </a>\
-    </div>\
-</center>';
-    }
+  function escapeHtml(unsafe)
+  {
+    return unsafe
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
 
-    const demos = document.getElementsByTagName("div");
+  function getSourceCode(demo)
+  {
+    fetch('https://raw.githack.com/epeios-q37/zelbinium/main/' + demo + '/main.py').then(function (response) {
+      // The API call was successful!
+      return response.text();
+    }).then(function (data) {
+      // This is the JSON from our response
+      console.log(data);
+      document.getElementById(demo + '-code').innerHTML = escapeHtml(data);
+      hljs.highlightBlock(document.getElementById(demo + '-code'));
+    }).catch(function (err) {
+      // There was an error
+      console.warn('Something went wrong.', err);
+    });
+  }
 
-    for ( const demo of demos ) {
-        if ( demo.hasAttribute("data-demo") )
-            demoLink(demo);
+  function demoLink(element)
+  {
+    const demo = element.getAttribute("data-demo");
+    element.innerHTML = '\
+      <center>\
+        <div style="font-size: smaller; font-style: oblique;">Click <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">here</a> or on the preview below to access the application.</div>\
+        <div>\
+        <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\
+          <img  style="padding: 10px; margin: 10px 0 0 0; box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; border-radius: 10px;" src="./' + demo +  '.gif"/>\
+        </a>\
+        </div>\
+      </center>\
+      <details ontoggle="getSourceCode(\'' + demo + '\');this.removeAttribute(\'ontoggle\')">\
+        <summary>Code</summary>\
+        <pre class="lang-python" id="' + demo + '-code"/>\
+      </details>';
+  }
+
+  const demos = document.getElementsByTagName("div");
+
+  for ( const demo of demos ) {
+    if ( demo.hasAttribute("data-demo") ) {
+      demoLink(demo);
     }
+  }
 </script>
