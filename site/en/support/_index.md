@@ -5,6 +5,10 @@ weight: 6
 aliases: ["/en/donate"]
 ---
 
+<!--
+  Si URL modifiée, mettre à jour raccourci 'k7347z9w'.
+-->
+
 # Your support makes a difference
 
 <center>

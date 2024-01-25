@@ -10,7 +10,8 @@ bookCollapseSection: true
 - [*HTML*/*CSS*](./html): languages used in *Zelbinium* to create graphical interfaces;
 - [*Python*](./python): the programming language used in *Zelbinium*;
 - [*JSBin*](./jsbin/): on-the-fly rendering in a web browser of *HTML* and *CSS* code;
-- [*Replit*](./replit): *Python* in a web browser;
+- [*Brython*](./brython) : *Python* interpreter in the web browser ;
+- [*Replit*](./replit): *Python* in the web browser;
 - [*Termux*](./termux): *Python* on *Android*;
 - [*iSH*](./ish): *Python* on *iOS* and derivatives (for devices like *iPhone*, *iPad*…);
 - [*Software forges*](./forges): host the source code of your applications in the cloud;

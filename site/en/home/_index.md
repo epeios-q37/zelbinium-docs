@@ -13,8 +13,10 @@ weight: 1
 
 [![](AnimatedLogo.gif)](../support)
 
-- Use your smartphone, tablet or personal computer to easily create true [connected applications](https://en.wikipedia.org/wiki/Web_application);
-- share the access to your applications using a [QR code](https://en.wikipedia.org/wiki/QR_code) or your preferred [email](https://en.wikipedia.org/wiki/Email) or [instant messaging](https://en.wikipedia.org/wiki/Instant_messaging) application.
+Unleash the full power of your digital tools:
+
+- easily create true [connected applications](https://en.wikipedia.org/wiki/Web_application) for and with your smartphone, tablet, personal computer…;
+- share their access using a [QR code](https://en.wikipedia.org/wiki/QR_code) or your preferred [email](https://en.wikipedia.org/wiki/Email) or [instant messaging](https://en.wikipedia.org/wiki/Instant_messaging) application.
 
 <div style="width: 100%; text-align: center;">
   <!-- Fait avec https://imagemapper.pageballoon.com/#/ -->

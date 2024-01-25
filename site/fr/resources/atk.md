@@ -16,15 +16,15 @@ Le module [*term2web*](https://pypi.org/project/term2web/), avec une simple lign
 
 Le module [*tortoise*](https://pypi.org/project/tortoise/) est une implémentation de la [tortue *Logo*](https://fr.wikipedia.org/wiki/Logo_(langage)). La différence avec le module [turtle](https://docs.python.org/3/library/turtle.html) fourni avec *Python* est que les graphiques résultants sont affichés dans un navigateur web et peuvent être partagés sur Internet. Voici un exemple de graphique généré avec ce module :
 
-![](https://q37.info/s/34xmsbfb.png)
+![](https://s.q37.info/34xmsbfb.png)
 
 
 Le module [*EduTK*](https://pypi.org/project/edutk/) permet de créer des exercices pour apprendre à programmer. Ces exercices, grâce au *toolkit* *Atlas*, sont exécutés dans un environnement graphique sans qu'il soit nécessaire de programmer directement l'interface graphique.
 
 Voici à quoi ressemble généralement un exercice de programmation :
 
-![](https://q37.info/s/p3g3svdw.png)
+![](https://s.q37.info/p3g3svdw.png)
 
 Même exercice avec le module *EduTK* :
 
-![](https://q37.info/s/3tmm4gmh.png)
+![](https://s.q37.info/3tmm4gmh.png)

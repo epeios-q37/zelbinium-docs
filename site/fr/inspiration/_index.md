@@ -9,9 +9,7 @@ bookCollapseSection: false
 
 Voici quelques applications dont certaines permettent aux utilisateurs d'interagir entre eux (prévisualisation avec deux panneaux).  L'ensemble de ces applications sont regroupées dans le dépôt à l'adresse <https://github.com/epeios-q37/zelbinium>. Le terme entre parenthèses est le nom du dossier dans lequel se situe le code source de chaque application.
 
-En cliquant sur l'aperçu d'une application, vous aurez accès à son *repl*, à partir duquel l'application pourra être [lancée](../action/launch), [partagée](../action/share), [explorée](../action/explore), [modifiée](../action/modify) et servir d'inspiration pour [créer](../action/create) ses propres applications, comme détaillé dans la section [*Action !*](../action/).
-
-Un clic sur *Code* affiche le code source de l'application. Une application peut avoir plus d'un fichier source, qui peuvent être affichés à partir de son *repl*.
+En cliquant *Afficher/masquer* sous l'aperçu d'une application, vous aurez accès à son encart à partir duquel l'application pourra être lancée, partagée, explorée, modifiée <!--et servir d'inspiration pour créer ses propres applications!--> comme détaillé dans la section [*Action !*](../action/).
 
 ## *Hello world* (`Hello`)
 
@@ -57,11 +55,16 @@ Définissez le motif de la zone supérieure gauche, qui remplit tous les carrés
 
 <div data-demo="Flooder"></div>
 
+<!--
 ## *Blackjack* (`Blackjack`)
 
 Le jeu du [*blackjack*](https://fr.wikipedia.org/wiki/Blackjack_(jeu)).
 
 <div data-demo="Blackjack"></div>
+
+-->
+
+<!--
 
 ## *Pig game* (`PigGame`)
 
@@ -74,11 +77,9 @@ Le jeu du [*blackjack*](https://fr.wikipedia.org/wiki/Blackjack_(jeu)).
 Le premier joueur à marquer 100 points ou plus gagne.
 
 <div data-demo="PigGame"></div>
+-->
 
 <!-- -->
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/xt256.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 
 <style>
   details {
@@ -98,55 +99,32 @@ Le premier joueur à marquer 100 points ou plus gagne.
 </style>
 
 <script>
-  function escapeHtml(unsafe)
-  {
-    return unsafe
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#039;");
-  }
-
-  function getSourceCode(demo)
-  {
-    fetch('https://raw.githack.com/epeios-q37/zelbinium/main/' + demo + '/main.py').then(function (response) {
-      // The API call was successful!
-      return response.text();
-    }).then(function (data) {
-      // This is the JSON from our response
-      console.log(data);
-      document.getElementById(demo + '-code').innerHTML = escapeHtml(data);
-      hljs.highlightBlock(document.getElementById(demo + '-code'));
-    }).catch(function (err) {
-      // There was an error
-      console.warn('Something went wrong.', err);
-    });
-  }
-
-  function demoLink(element)
+  function demoInsert(element)
   {
     const demo = element.getAttribute("data-demo");
     element.innerHTML = '\
       <center>\
-        <div style="font-size: smaller; font-style: oblique;">Click <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">here</a> or on the preview below to access the application.</div>\
         <div>\
-        <a target="_blank" href="https://replit.com/@Zelbinium/' + demo + '">\
           <img  style="padding: 10px; margin: 10px 0 0 0; box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; border-radius: 10px;" src="./' + demo +  '.gif"/>\
-        </a>\
+          </a>\
         </div>\
       </center>\
-      <details ontoggle="getSourceCode(\'' + demo + '\');this.removeAttribute(\'ontoggle\')">\
-        <summary>Code</summary>\
-        <pre class="lang-python" id="' + demo + '-code"/>\
+      <details ontoggle="demoFill(\'' + demo + '\');this.removeAttribute(\'ontoggle\');this.scrollIntoView();">\
+        <summary>Afficher/masquer</summary>\
+        <iframe id="' + demo + '-code" style="width: 100%;height: 90vh;" src="data:text/html,<head><meta%20charset=\'utf-8\'></head><body><center><h3>Veuillez patienter…</h3></center></body>">\
+        </iframe>\
       </details>';
+  }
+
+  function demoFill(demo) {
+    document.getElementById(demo + '-code').src="https://faas.q37.info/brython?demo=" + demo;
   }
 
   const demos = document.getElementsByTagName("div");
 
   for ( const demo of demos ) {
     if ( demo.hasAttribute("data-demo") ) {
-      demoLink(demo);
+      demoInsert(demo);
     }
   }
 </script>

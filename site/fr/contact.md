@@ -8,8 +8,6 @@ weight: 7
 
 Pour contribuer au contenu de ce site et à *Zelbinium* en général : <https://github.com/epeios-q37/zelbinium-docs>.
 
-Le code source des applications présentes sur ce site : <https://github.com/epeios-q37/zelbinium>.
-
 Pour soutenir ce projet : [page de soutien](../support). 
 
 Pour contacter le responsable de ce site : <https://q37.info/contact>.

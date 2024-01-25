@@ -5,6 +5,10 @@ weight: 6
 aliases: ["/fr/donate"]
 ---
 
+<!--
+  Si URL modifiée, mettre à jour raccourci 'kfn7b7xw'.
+-->
+
 # Votre soutien fait la différence
 
 ![](./CrowdfundingAnimation.gif)
