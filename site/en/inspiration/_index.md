@@ -67,15 +67,12 @@ The classic card game also known as 21 (This version doesn't have splitting or i
 
 -->
 
-<!--
-
 ## *Pig game* (`PigGame`)
 
 A multi-player version of the [Pig game](https://en.wikipedia.org/wiki/Pig_(dice_game)#Gameplay).
 
 <div data-demo="PigGame"></div>
 
--->
 
 <!-- -->
 
@@ -101,17 +98,19 @@ A multi-player version of the [Pig game](https://en.wikipedia.org/wiki/Pig_(dice
   {
     const demo = element.getAttribute("data-demo");
     element.innerHTML = '\
-      <center>\
-        <div>\
-          <img  style="padding: 10px; margin: 10px 0 0 0; box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; border-radius: 10px;" src="./' + demo +  '.gif"/>\
-          </a>\
-        </div>\
-      </center>\
-      <details ontoggle="demoFill(\'' + demo + '\');this.removeAttribute(\'ontoggle\');this.scrollIntoView();">\
-        <summary>Hide/show</summary>\
-        <iframe id="' + demo + '-code" style="width: 100%;height: 90vh;" src="data:text/html,<head><meta%20charset=\'utf-8\'></head><body><center><h3>Please wait…</h3></center></body>">\
-        </iframe>\
-      </details>';
+<center>\
+  <div>\
+    <img onclick="this.parentElement.parentElement.nextElementSibling.open=\'true\'" style="cursor: pointer; padding: 10px; margin: 10px 0 0 0; box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; border-radius: 10px;" src="./' + demo +  '.gif"/>\
+  </div>\
+</center>\
+<details ontoggle="demoFill(\'' + demo + '\');this.removeAttribute(\'ontoggle\');this.scrollIntoView();">\
+  <summary>Hide/show</summary>\
+  <iframe allow="web-share" id="' + demo + '-code" style="width: 100%;height: 90vh;" src="data:text/html;charset=utf-8,<center><h3>Please wait…</h3></center>">\
+  </iframe>\
+  <span>\
+    Click <a target="_blank" href="https://faas.q37.info/brython?demo=' + demo + '">here</a> to open this application in its own page.\
+  </span>\
+</details>';
   }
 
   function demoFill(demo) {

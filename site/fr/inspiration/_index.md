@@ -64,8 +64,6 @@ Le jeu du [*blackjack*](https://fr.wikipedia.org/wiki/Blackjack_(jeu)).
 
 -->
 
-<!--
-
 ## *Pig game* (`PigGame`)
 
 À chaque tour, un joueur lance plusieurs fois un dé jusqu'à ce qu'il obtienne un 1 ou qu'il décide d'attendre :
@@ -77,7 +75,6 @@ Le jeu du [*blackjack*](https://fr.wikipedia.org/wiki/Blackjack_(jeu)).
 Le premier joueur à marquer 100 points ou plus gagne.
 
 <div data-demo="PigGame"></div>
--->
 
 <!-- -->
 
@@ -103,17 +100,19 @@ Le premier joueur à marquer 100 points ou plus gagne.
   {
     const demo = element.getAttribute("data-demo");
     element.innerHTML = '\
-      <center>\
-        <div>\
-          <img  style="padding: 10px; margin: 10px 0 0 0; box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; border-radius: 10px;" src="./' + demo +  '.gif"/>\
-          </a>\
-        </div>\
-      </center>\
-      <details ontoggle="demoFill(\'' + demo + '\');this.removeAttribute(\'ontoggle\');this.scrollIntoView();">\
-        <summary>Afficher/masquer</summary>\
-        <iframe id="' + demo + '-code" style="width: 100%;height: 90vh;" src="data:text/html,<head><meta%20charset=\'utf-8\'></head><body><center><h3>Veuillez patienter…</h3></center></body>">\
-        </iframe>\
-      </details>';
+<center>\
+  <div>\
+    <img onclick="this.parentElement.parentElement.nextElementSibling.open=\'true\'" style="cursor: pointer; padding: 10px; margin: 10px 0 0 0; box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; border-radius: 10px;" src="./' + demo +  '.gif"/>\
+  </div>\
+</center>\
+<details ontoggle="demoFill(\'' + demo + '\');this.removeAttribute(\'ontoggle\');this.scrollIntoView();">\
+  <summary>Afficher/masquer</summary>\
+  <iframe allow="web-share" id="' + demo + '-code" style="width: 100%;height: 90vh;" src="data:text/html;charset=utf-8,<center><h3>Veuillez patienter…</h3></center>">\
+  </iframe>\
+  <span>\
+    Cliquez <a target="_blank" href="https://faas.q37.info/brython?demo=' + demo + '">ici</a> pour ouvrir cette application dans sa propre page.\
+  </span>\
+</details>';
   }
 
   function demoFill(demo) {

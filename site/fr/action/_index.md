@@ -11,13 +11,13 @@ Dans cette section du site, on verra comment réaliser différentes actions rela
 
 <details style="padding: 0;">
   <summary style="cursor; pointer; outline-style: none;">Afficher/masquer</summary>
-<iframe style="width: 100%; height: 80vh;" src="https://faas.q37.info/brython?demo=Messages">
+<iframe allow="web-share" style="width: 100%; height: 80vh;" src="https://faas.q37.info/brython?demo=Messages">
 </iframe>
 </details>
 
 Cliquer sur *Afficher/masquer* pour le faire apparaître.
 
-L'application utilisée à titre d’exemple dans cette section permet d"échanger des messages avec n'importe qui juste en lui faisant scanner un code QR ou en lui envoyant un lien généré par l'application avec son smartphone (plus de détails seront donnés ci-dessous).
+L'application utilisée à titre d’exemple dans cette section permet d"échanger des messages avec n'importe qui juste en lui faisant scanner un [code QR](https://fr.wikipedia.org/wiki/Code_QR) ou en lui envoyant un lien généré par l'application avec son smartphone (plus de détails seront donnés ci-dessous).
 
 <div style="width: 100%; text-align: center">
   <img style="margin: auto;" src="./Action.png"></img>
@@ -37,7 +37,7 @@ Pour lancer l'application, il suffit de cliquer sur le bouton *Run*. Cela va mas
 
 <details style="padding: 0;">
   <summary style="cursor; pointer; outline-style: none;">Afficher/masquer</summary>
-<iframe style="width: 100%; height: 80vh;" src="https://faas.q37.info/brython?demo=Messages">
+<iframe allow="web-share" style="width: 100%; height: 80vh;" src="https://faas.q37.info/brython?demo=Messages">
 </iframe>
 </details>
 
@@ -49,7 +49,7 @@ Comme vu ci-dessus, cliquez sur *Afficher/masquer* pour afficher l'encart, puis 
 
 <details style="padding: 0;">
   <summary style="cursor; pointer; outline-style: none;">Afficher/masquer</summary>
-<iframe style="width: 100%; height: 80vh;" src="https://faas.q37.info/brython?demo=Messages">
+<iframe allow="web-share" style="width: 100%; height: 80vh;" src="https://faas.q37.info/brython?demo=Messages">
 </iframe>
 </details>
 
@@ -89,18 +89,18 @@ Pour faciliter leur manipulation, toutes les applications présentes sur ce site
 
 <details style="padding: 0;">
   <summary style="cursor; pointer; outline-style: none;">Afficher/masquer</summary>
-  <iframe style="width: 100%; height: 80vh;" src="https://faas.q37.info/brython?demo=Messages">
+  <iframe allow="web-share" style="width: 100%; height: 80vh;" src="https://faas.q37.info/brython?demo=Messages">
   </iframe>
 </details> 
 
 
 ## Modifier le code source d'une application
 
-En décochant la case *Read-only*, vous serez en mesure de modifier le code source de l'application directement dans l'éditeur. En cliquant sur *Run*, ce sera la version modifiée de l'application qui sera lancée.
+Vous pouvez modifier le code source de l'application directement dans l'éditeur. En cliquant sur *Run*, ce sera la version modifiée de l'application qui sera lancée.
 
 <details style="padding: 0;">
   <summary style="cursor; pointer; outline-style: none;">Afficher/masquer</summary>
-  <iframe style="width: 100%; height: 80vh;" src="https://faas.q37.info/brython?demo=Messages">
+  <iframe allow="web-share" style="width: 100%; height: 80vh;" src="https://faas.q37.info/brython?demo=Messages">
   </iframe>
 </details> 
 
@@ -108,7 +108,7 @@ En décochant la case *Read-only*, vous serez en mesure de modifier le code sour
 ## Créer sa propre application
 -->
 
-Pour aller plus loin, la section [*Inspiration*](../../inspiration/) comporte d'autres applications que vous pourrez explorer et modifier à loisir…
+Pour aller plus loin, la section [*Inspiration*](../inspiration/) comporte d'autres applications que vous pourrez explorer et modifier à loisir…
 
 
 

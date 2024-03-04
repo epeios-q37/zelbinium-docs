@@ -27,13 +27,3 @@ A titre d'information (article 6, I, 4° de la loi 2004-575 du 21 juin 2004) :
 Le site web *zelbinium.q37<span>.<span>info* n'émet que des cookies techniques, c'est-à-dire qu'aucun de ces cookies n'est utilisé pour tracer le visiteur de quelque manière que ce soit ni pour stocker ses données personnelles. Ce site web n'utilise pas non plus de services hébergés sur des sites web tiers qui pourraient stocker ou lire d'autres cookies.
 
 À des fins de [mesure d'audience du site](https://fr.wikipedia.org/wiki/Audience_d%27un_site_Web), ce site web s'appuie sur [*GoatCounter*](http://goatcounter.com/), qui n'émet pas de cookies. En ce qui concerne le [RGPD](https://fr.wikipedia.org/wiki/R%C3%A8glement_g%C3%A9n%C3%A9ral_sur_la_protection_des_donn%C3%A9es), voir [*GDPR consent notices*](http://www.goatcounter.com/gdpr).
-
-## Composants logiciels tiers
-
-Ce site web utilise les composants logiciels tiers suivants :
-- [*Ace editor*](//ace.c9.io/) ([license](//github.com/ajaxorg/ace/blob/master/LICENSE));
-- [*Brython*](//brython.info) ([license](//github.com/brython-dev/brython/blob/master/LICENCE.txt)) ;
-- [*buffer*](//github.com/feross/buffer/) ([license](//github.com/feross/buffer/blob/master/LICENSE)) ;
-- [*blob-to-buffer*](//github.com/feross/blob-to-buffer) ([license](//github.com/feross/blob-to-buffer/blob/master/LICENSE)) ;
-- [*Atlas toolkit*](//github.com/epeios-q37/atlas-python) ([license](https://github.com/epeios-q37/atlas-python/blob/master/LICENSE)) ; 
-- [*tortoise-python*](//github.com/epeios-q37/tortoise-python) ([license](//github.com/epeios-q37/tortoise-python/blob/master/LICENSE)).
